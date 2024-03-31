@@ -1,6 +1,8 @@
 import React from "react";
 import { Bar, Line } from "../components";
 
+// The report page component
+
 const Report = () => {
   return (
     <>

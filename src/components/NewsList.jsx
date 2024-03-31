@@ -3,6 +3,8 @@ import env_import from "../env_import/env_import.js";
 import {Loader, ManageNewsItem} from "./";
 import { useNavigate } from "react-router-dom";
 
+// Listing all the news fetched from the API
+
 const NewsList = () => {
   const [listNews, setListNews] = useState([]);
   const [loading, setLoading] = useState(true);

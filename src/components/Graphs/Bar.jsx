@@ -8,6 +8,7 @@ const Bar = () => {
   const [views, setViews] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // Getting random numbers from open api to show analytics on a Bar graph
   const getViews = async () => {
     const response = await axios.get(
       "/api/v1.0/random?min=100&max=1000&count=7"

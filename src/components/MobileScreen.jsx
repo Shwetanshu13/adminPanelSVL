@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import NewsContext from "../context/NewsContext";
 
+// Mobile Screen Preview Component
+
 const MobileScreen = () => {
   const { newsData } = useContext(NewsContext);
   const navigate = useNavigate();
@@ -13,7 +15,7 @@ const MobileScreen = () => {
       <div className="flex">
         <div
           className="mx-auto overflow-x-hidden overflow-y-auto border border-black my-5 rounded-lg pr-1"
-          style={{ width: "288px", height: "650px"}}
+          style={{ width: "300px", height: "600px"}}
         >
           <div className="news-preview flex flex-col gap-3">
             <div className="img w-full h-60 border border-blue-100 bg-blue-300 flex">

@@ -11,6 +11,8 @@ import NotFound from './pages/NotFound.jsx'
 import NewsContextProvider from './context/NewsContextProvider.jsx'
 import PreviewPage from './PreviewPage.jsx'
 
+// Creating the browser router
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -53,6 +55,7 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // Wrapping the router with the NewsContextProvider
   <NewsContextProvider>
     <RouterProvider router={router}/>
   </NewsContextProvider>,

@@ -1,5 +1,8 @@
 import React from "react";
 
+// Creating a component to manage news items
+// The buttons are for viewing, editing and deleting the news item although they do not have any functionality assigned to them as there is no backend to handle the requests
+
 const ManageNewsItem = ({ title, source, publishedAt}) => {
   return (
     <>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Creating a 404 page for the not found routes
+
 const NotFound = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">

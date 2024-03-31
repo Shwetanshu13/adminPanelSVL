@@ -14,3 +14,5 @@ const NewsContextProvider = ({children}) => {
 }
 
 export default NewsContextProvider
+
+// Creating News context for Preview

@@ -1,5 +1,7 @@
 import React from "react";
 
+// Creating a loader component to display while fetching data from api
+
 const Loader = () => {
   return (
     <div className="flex items-center justify-center h-screen">

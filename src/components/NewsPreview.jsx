@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import NewsContext from "../context/NewsContext";
 import { useNavigate } from "react-router-dom";
 
+// News Preview Component for mobile users
+
 const NewsPreview = () => {
   const { newsData } = useContext(NewsContext);
   const navigate = useNavigate();

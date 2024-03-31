@@ -5,6 +5,7 @@ function Header() {
   const [width, setWidth] = useState(screen.width);
   const [isMobile, setIsMobile] = useState(width < 640 ? true : false);
 
+  // Checking if the screen is mobile or not for displaying a responsive navbar
   useEffect(() => {
     setWidth(screen.width);
     window.addEventListener("resize", () => {

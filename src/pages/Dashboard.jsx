@@ -6,6 +6,8 @@ const Dashboard = () => {
   const [totalNews, setTotalNews] = useState(0);
   const [totalViews, setTotalViews] = useState(0);
 
+  // Fetching random data for the dashboard though open api
+
   const getData = async () => {
     const response = await axios.get(
       "/api/v1.0/random?min=100&max=1000&count=2"

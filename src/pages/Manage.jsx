@@ -1,6 +1,8 @@
 import React from 'react'
 import {NewsList} from '../components'
 
+// Manage the published news
+
 const Manage = () => {
   return (
     <>
