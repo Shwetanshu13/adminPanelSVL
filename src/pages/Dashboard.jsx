@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DashboardCard, MobileScreen } from "../components";
 import axios from "axios";
+import { set } from "react-hook-form";
 
 const Dashboard = () => {
   const [totalNews, setTotalNews] = useState(0);
@@ -17,8 +18,13 @@ const Dashboard = () => {
     // Max-Min used to make the data look more realistic
   };
 
+  // Proxy Error Code Alternative
+  // setTotalViews(1000);
+  // setTotalNews(100);
+
   useEffect(() => {
     getData();
+    // Comment the above getData() in case of Proxy Error
   }, []);
 
 

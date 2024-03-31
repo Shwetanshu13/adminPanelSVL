@@ -18,8 +18,12 @@ const Bar = () => {
     setViews(response.data);
   };
 
+  // Proxy Error Code Alternative
+  // setViews([100, 200, 300, 400, 500, 600, 700]);
+
   useEffect(() => {
     getViews();
+    // Comment the above getViews() in case of Proxy Error 
   }, []);
 
   if (loading) {

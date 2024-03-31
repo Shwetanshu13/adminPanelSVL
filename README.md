@@ -11,6 +11,9 @@ The react app was created using vite. Several external packages were used in cre
 > [!Note]
 > The preview feature is availible to get a preview for the written news. The mobile screen will have a direct preview feature, whereas larger screens will have a mobile screen preview in the preview page.
 
+> [!Important]
+> To fetch the random numbers from the api request, the app uses proxy to deal with the CORS error produced while calling the api from localhost. Thus, just in the the worst case, the proxy is not configured properly and is giving an error, kindly uncomment the "Proxy Error" heading code.
+
 ## Installation
 
 1. Download the code from the Repository
